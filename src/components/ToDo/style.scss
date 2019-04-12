@@ -1,0 +1,24 @@
+@import '../../scss/_colors';
+
+.todo {
+  display: block;
+
+  &__add {
+    color: $main;
+    font-size: 18px;
+  }
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  * {
+    padding: 6px;
+  }
+
+  &__delete {
+    cursor: pointer;
+  }
+}
